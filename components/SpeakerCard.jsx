@@ -20,17 +20,34 @@ export default function SpeakerCard({ speaker }) {
         </div>
       )}
 
-      {/* Gradient overlay */}
+      {/* Gradient overlay — always visible */}
       <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent" />
 
-      {/* Info — slides up on hover */}
-      <div className="absolute bottom-0 left-0 p-8 w-full transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-        <div className="h-1.5 w-12 bg-ted-red rounded-full mb-6 group-hover:w-full transition-all duration-500" />
+      {/* Static name strip — visible at rest, hidden when bio slides up */}
+      <div className="absolute bottom-0 left-0 p-8 w-full transition-all duration-500 group-hover:opacity-0 group-hover:translate-y-4">
+        <div className="h-1.5 w-12 bg-ted-red rounded-full mb-4" />
         <p className="font-headline text-3xl leading-none">{name}</p>
         <p className="text-ted-red text-xs uppercase tracking-widest mt-2 font-body font-bold">{role}</p>
-        <p className="font-body text-white transition-all duration-500 text-sm mt-6 leading-relaxed opacity-0 group-hover:opacity-100">
-          {bio}
-        </p>
+      </div>
+
+      {/* Bio overlay — slides up from bottom to fill full card height, scrollable */}
+      <div
+        className="absolute inset-x-0 bottom-0 h-full translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out bg-black/90 backdrop-blur-sm rounded-3xl flex flex-col overflow-hidden"
+      >
+        {/* Sticky header inside overlay */}
+        <div className="flex-shrink-0 px-8 pt-8 pb-4 border-b border-white/10">
+          <div className="h-1.5 w-12 bg-ted-red rounded-full mb-4" />
+          <p className="font-headline text-2xl leading-none">{name}</p>
+          <p className="text-ted-red text-xs uppercase tracking-widest mt-2 font-body font-bold">{role}</p>
+        </div>
+
+        {/* Scrollable bio body */}
+        <div className="flex-1 overflow-y-auto px-8 py-6 scrollbar-hide">
+          <p className="font-body text-sm text-white/80 leading-relaxed">{bio}</p>
+        </div>
+
+        {/* Bottom fade hint for scroll */}
+        <div className="flex-shrink-0 h-8 bg-gradient-to-t from-black/80 to-transparent pointer-events-none" />
       </div>
     </div>
   );
