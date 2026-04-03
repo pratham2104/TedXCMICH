@@ -28,11 +28,11 @@ export const speakers = [
     initials: "CM",
     role: "Entrepreneur",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAA6Tmn5yXMEnd2ARo2iFOt2S7JHJ68tqLnf9ptNGZlwjGDJCol8Sh4TwgzgJu3Z247AEGJpOoQO8-O-OpO1wXI4f61Q3UkzZ96zZvMVHWBnugHqg8FRfrKHv0b0lT1NC-hr7VhQ7H9pQrYRFA6qFAr8JJ6EB61GW6UrSj9D6ZAw4wSUfvodJ2eDTRen88RGhvWRfE5nvqlkhF0vUn6A9-getizJaNday8yPGDN6v2VrHQSIacNLWIcFJDQo7jlct-A6lDydVsZiW8",
-    bio: "Dr. Cleamon Moorer, Jr. was legally blind at 21. A community paid for the surgery that restored his sight. His mother's last words were simple: "Promise me you'll give back."
+    bio: 'Dr. Cleamon Moorer, Jr. was legally blind at 21. A community paid for the surgery that restored his sight. His mother's last words were simple: "Promise me you'll give back."
 He's spent the last 25 years keeping that promise.
 Dr. Moorer is the Founding Executive Director of Eye Care for Michigan, a mobile vision nonprofit serving homebound seniors statewide, and President & CEO of American Advantage Home Care. He invented horEYESontal.ai, a provisionally patented AI platform detecting early markers for Alzheimer's and dementia through a routine eye exam.
 An Entrepreneur in Residence and Lecturer at Central Michigan University's College of Business Administration, host of The Home Health Care Today Show on WMYD TV-20 Detroit, and bestselling author. Dr. Moorer delivered his first TEDx talk in 2016. He returns with a decade more of promises delivered.
-",
+',
   },
   {
     id: 2,
