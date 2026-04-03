@@ -26,13 +26,9 @@ export const speakers = [
     id: 1,
     name: "Dr. Cleamon Moorer Jr.",
     initials: "CM",
-    role: "Entrepreneur",
+    role: "Entrepreneur & Innovator",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAA6Tmn5yXMEnd2ARo2iFOt2S7JHJ68tqLnf9ptNGZlwjGDJCol8Sh4TwgzgJu3Z247AEGJpOoQO8-O-OpO1wXI4f61Q3UkzZ96zZvMVHWBnugHqg8FRfrKHv0b0lT1NC-hr7VhQ7H9pQrYRFA6qFAr8JJ6EB61GW6UrSj9D6ZAw4wSUfvodJ2eDTRen88RGhvWRfE5nvqlkhF0vUn6A9-getizJaNday8yPGDN6v2VrHQSIacNLWIcFJDQo7jlct-A6lDydVsZiW8",
-    bio: 'Dr. Cleamon Moorer, Jr. was legally blind at 21. A community paid for the surgery that restored his sight. His mother's last words were simple: "Promise me you'll give back."
-He's spent the last 25 years keeping that promise.
-Dr. Moorer is the Founding Executive Director of Eye Care for Michigan, a mobile vision nonprofit serving homebound seniors statewide, and President & CEO of American Advantage Home Care. He invented horEYESontal.ai, a provisionally patented AI platform detecting early markers for Alzheimer's and dementia through a routine eye exam.
-An Entrepreneur in Residence and Lecturer at Central Michigan University's College of Business Administration, host of The Home Health Care Today Show on WMYD TV-20 Detroit, and bestselling author. Dr. Moorer delivered his first TEDx talk in 2016. He returns with a decade more of promises delivered.
-',
+    bio: "At 21, Dr. Cleamon Moorer Jr. was legally blind. A community paid for the surgery that restored his sight — and his mother's dying words sealed the rest: \"Promise me you'll give back.\" He's spent 25 years keeping that promise. Founding Executive Director of Eye Care for Michigan, CEO of American Advantage Home Care, and inventor of horEYESontal.ai — an AI platform that detects early markers for Alzheimer's through a routine eye exam — Dr. Moorer returns to the TEDx stage with a decade more of promises delivered.",
   },
   {
     id: 2,
@@ -40,15 +36,15 @@ An Entrepreneur in Residence and Lecturer at Central Michigan University's Colle
     initials: "JR",
     role: "Doctor of Ayurveda",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuB80fH_He6uX7B6WwHQ6hm4zmx8Q22pH2swwd1FPCZSFTtVTUi2xnS1z5I4aKg53rrkIGrLpPz1rr51ddymC6HHDBKpErtY1oxTrVdNhfkNVFZ_VAp7Vd5hdGGv6w8QWqBNpHY7bb-tO-JVBHs4XtF5FTAd-b6HT-dJLcyu77ItDYpSLDABIgNmf5QbO3vu3GJWh3cr9TpPqnYxa9tfy-6pxSoIAwtpZ0g1_5zHmdRZrsH3ZvMlU5_58CoWSSgUcSnUZWBGcE0Bklg",
-    bio: "Bridging ancient wisdom with contemporary health practices to address modern chronic stress through holistic methodologies.",
+    bio: "Jeannine Rashidi scored a 10 out of 10 on the Adverse Childhood Experiences scale — and turned that pain into a life's mission. A Doctor of Ayurveda, international speaker, and creator of the EDHIR® Process, she has spent over 20 years helping people break cycles of trauma and reconnect with joy. Her work lives at the intersection of neuroscience, mind-body healing, and the deeply human need to stop asking \"why me\" and start moving forward.",
   },
   {
     id: 3,
     name: "Joseph Cope",
     initials: "JC",
-    role: "Empathy Guy",
+    role: "The Empathy Guy",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCPv90v18XxmXv8g-6CsyI_dR9Z8VQKmidjZRCHk2hW4NFnLNpE1tHPIgaTTt3uUG0NQ0DvEkyVTAiHC497pEoRmp2A7V00qzItI3g33-WrkBZSM8AMVg_UXy39CC9PzgrK6ks87W6PNZ72cXRFdQtjHHNsWYtLQkvyK8qiVLKT3qRLbYdITYUIgaH3NF82lShPFuMh7mDIFLH6X3pPXUYTBC2h8Rvp_VL3_XEjPUZfxBPevQWESuVAgIkvcylz7aVjNtqvaDOoVZQ",
-    bio: "Radical empathy as a tool for systemic cultural change, teaching us how to connect deeply in a disconnected digital age.",
+    bio: "Joseph Cope built his reputation on a radical idea: empathy isn't soft — it's the hardest and most transformative leadership skill there is. A keynote speaker, workshop facilitator, and author, he has traveled from award-winning educator to one of the most sought-after voices on human connection. Spend any time with Joseph and you leave with one clear conviction — the space you create for others begins with the space you create for yourself.",
   },
   {
     id: 4,
@@ -56,39 +52,39 @@ An Entrepreneur in Residence and Lecturer at Central Michigan University's Colle
     initials: "KP",
     role: "Mental Health Advocate",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuABpzit3XIdyvF4sSYbyeHNVU_YdWOZqAGof7RiuJLDtFFfBpdGcnGKH2pT6Qj_mYB6D56sNy3xKhl6rhI8aA4joRcWrgntUIYgqbikFFKhGxdndUul6S3DXD130H_VkZRgOtY_P2blq0l0TogC728zikTKg5a1w43rUfnsmXbhJ0kQA4YmE0OY-QDj8jKMayEG7-kEd8Ez-a8s6gqzhKyHw2HQq8qL6VB_XzNtKucqcp_Svq0Hf_JiHQfA5tIWIcCORlPzfVcmMN8",
-    bio: "De-stigmatizing the journey toward mental well-being through storytelling and shared experience.",
+    bio: "Kait Philp knows that mental health care doesn't begin in a crisis — it begins in the everyday moments that make people feel seen. A CMU graduate student in clinical mental health counseling, first-generation college student, and creator of Flourish, a guided wellness journal, she brings both lived experience and professional training to her advocacy. Her work centers on community and belonging as the quiet infrastructure that holds us together before we ever fall apart.",
   },
   {
     id: 5,
     name: "Lauren Lasceski",
     initials: "LL",
-    role: "Speaker",
+    role: "Engineer & Mentor",
     image: null, // Replace null with "/images/lauren.jpg" once you have a photo
-    bio: "Bringing a powerful perspective to the TEDxCMICH stage in 2026.",
+    bio: "Lauren Lasceski is a mechanical engineer who never lost sight of the human on the other side of the design. A Division I student-athlete at CMU, mentor, and guest lecturer, she believes that thoughtful engineering is an act of care — ensuring that the people we love come home safely. Through storytelling and community outreach, she carries a message that resonates far beyond any blueprint: resilience, purpose, and the power of showing up for others.",
   },
   {
     id: 6,
     name: "Lisa Blosser",
     initials: "LB",
-    role: "Speaker",
+    role: "Executive Coach",
     image: null,
-    bio: "Bringing a powerful perspective to the TEDxCMICH stage in 2026.",
+    bio: "Lisa Blosser was living the dream — flying the world, coaching executives, shaping organizations — until she realized she was breaking under the very patterns she had been celebrated for. That reckoning became her lens. Today she works with founders and leadership teams to surface the invisible dynamics that keep them stuck: the unspoken agreements, inherited roles, and subtle choreography that high performance hides behind. Her gift is naming what others can't quite see — and helping leaders unbind what's old so something new can emerge.",
   },
   {
     id: 7,
     name: "Zarinah El-Amin",
     initials: "ZE",
-    role: "Speaker",
+    role: "Cultural Anthropologist",
     image: null,
-    bio: "Bringing a powerful perspective to the TEDxCMICH stage in 2026.",
+    bio: "Zarinah El-Amin left a path in computer science to spend her life doing something harder: helping people preserve the stories that make them who they are. A cultural anthropologist, author, and founder of Legacy Storykeepers, she has guided individuals around the world in documenting their histories before they are lost to time. Her work expands the definition of legacy beyond wealth — into wisdom, memory, and the lived experience we owe to the generations that follow.",
   },
   {
     id: 8,
     name: "Holly Jones",
     initials: "HJ",
-    role: "Speaker",
+    role: "Sobriety Advocate",
     image: null,
-    bio: "Bringing a powerful perspective to the TEDxCMICH stage in 2026.",
+    bio: "Holly Jones is a wife, a mother of two, and a woman who rebuilt her life from the inside out. Nearly four years ago she chose sobriety — and what started as a personal decision became a window into something much larger: a quiet cultural shift of people rethinking their relationship with alcohol and rewriting what it means to connect, celebrate, and cope. Through honesty, humor, and raw storytelling, Holly's message cuts through the noise. It's not about perfection. It's about presence.",
   },
 ];
 
