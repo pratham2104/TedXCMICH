@@ -13,9 +13,9 @@ export default function LeadCard({ lead, index }) {
           </span>
         </div>
         {image ? (
-          <Image src={image} alt={name} fill className="object-cover z-10" sizes="20vw" />
+          <Image src={image} alt={name} fill className="object-cover" sizes="20vw" />
         ) : (
-          <span className="font-headline text-6xl text-white/40 z-10 group-hover:text-white transition-colors">
+          <span className="font-headline text-6xl text-white/40 group-hover:text-white transition-colors">
             {initials}
           </span>
         )}
@@ -31,9 +31,23 @@ export default function LeadCard({ lead, index }) {
         </h4>
       </div>
 
-      {/* Hover overlay with bio */}
-      <div className="absolute inset-0 bg-black/90 p-8 flex items-center justify-center text-center opacity-0 group-hover:opacity-100 transition-all duration-500 translate-y-full group-hover:translate-y-0 rounded-3xl">
-        <p className="font-body text-sm text-white leading-relaxed">{bio}</p>
+      {/* Hover overlay with bio — z-30 ensures it covers image and name strip */}
+      <div className="absolute inset-0 z-30 bg-black/95 flex flex-col overflow-hidden rounded-3xl translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+        {/* Header */}
+        <div className="flex-shrink-0 px-8 pt-8 pb-4 border-b border-white/10">
+          <span className="inline-block bg-ted-red text-white text-[8px] font-bold uppercase tracking-widest px-2 py-0.5 rounded-full w-fit mb-3 font-body">
+            {role}
+          </span>
+          <h4 className="font-headline text-[22px] leading-tight text-ted-red uppercase">
+            {name}
+          </h4>
+        </div>
+        {/* Scrollable bio */}
+        <div className="flex-1 overflow-y-auto px-8 py-6 no-scrollbar">
+          <p className="font-body text-sm text-white/80 leading-relaxed">{bio}</p>
+        </div>
+        {/* Bottom fade */}
+        <div className="flex-shrink-0 h-8 bg-gradient-to-t from-black/80 to-transparent pointer-events-none" />
       </div>
     </div>
   );
