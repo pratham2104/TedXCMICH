@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { archive } from "@/content.config";
 
 export default function Archive() {
@@ -14,9 +15,10 @@ export default function Archive() {
 
         <div className="space-y-12">
           {archive.map((event) => (
-            <div
+            <Link
               key={event.year}
-              className="group relative flex flex-col md:flex-row gap-12 items-center p-12 liquid-glass border border-white/5 hover:border-ted-red transition-all duration-500 cursor-pointer rounded-3xl overflow-hidden"
+              href={`/archive/${event.year}`}
+              className="group relative flex flex-col md:flex-row gap-12 items-center p-12 liquid-glass border border-white/5 hover:border-ted-red transition-all duration-500 cursor-pointer rounded-3xl overflow-hidden block"
             >
               {/* Background year watermark */}
               <div className="font-headline text-[12rem] leading-none opacity-5 group-hover:opacity-10 absolute -left-10 top-0 transition-opacity pointer-events-none select-none">
@@ -28,15 +30,16 @@ export default function Archive() {
                 <h4 className="font-headline text-5xl mb-4 leading-none">
                   {event.theme.toUpperCase()}
                 </h4>
-                {event.soldOut ? (
-                  <span className="bg-ted-red text-white px-4 py-1.5 text-xs font-bold rounded-full font-body">
-                    SOLD OUT
+                <div className="flex items-center gap-3 flex-wrap">
+                  {event.soldOut ? (
+                    <span className="bg-ted-red text-white px-4 py-1.5 text-xs font-bold rounded-full font-body">
+                      SOLD OUT
+                    </span>
+                  ) : null}
+                  <span className="text-white/30 text-xs font-bold tracking-widest uppercase font-body group-hover:text-ted-red transition-colors">
+                    View Full Archive →
                   </span>
-                ) : (
-                  <span className="border border-white/20 text-white/40 px-4 py-1.5 text-xs font-bold rounded-full font-body">
-                    [Theme TBD]
-                  </span>
-                )}
+                </div>
               </div>
 
               {/* Description */}
@@ -56,7 +59,7 @@ export default function Archive() {
                   />
                 </div>
               )}
-            </div>
+            </Link>
           ))}
         </div>
       </div>
