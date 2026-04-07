@@ -15,9 +15,9 @@ export default function Navbar() {
         <a href="#archive"  className="text-white hover:text-ted-red transition-colors duration-300">Archive</a>
         <a href="#team"     className="text-white hover:text-ted-red transition-colors duration-300">Team</a>
         <a href="#contact"  className="text-white hover:text-ted-red transition-colors duration-300">Contact</a>
-        <button className="bg-ted-red text-white px-6 py-2 text-sm font-bold tracking-widest uppercase transition-all hover:bg-white hover:text-ted-red rounded-full">
+        <a href="https://forms.cloud.microsoft/r/81uiTu5m8X" target="_blank" rel="noopener noreferrer" className="bg-ted-red text-white px-6 py-2 text-sm font-bold tracking-widest uppercase transition-all hover:bg-white hover:text-ted-red rounded-full">
           Register
-        </button>
+        </a>
       </div>
 
       {/* Mobile hamburger */}

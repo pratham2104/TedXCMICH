@@ -12,7 +12,7 @@ export const siteConfig = {
   date: "April 2026", // Update when confirmed e.g. "April 18, 2026"
   venue: "French Auditorium · Central Michigan University",
   instagram: "https://instagram.com/tedxcentralmichiganuniversity",
-  eventDate: new Date("2026-04-18T18:00:00"), // Update with real date for countdown
+  eventDate: new Date("2026-04-18T12:00:00"), // Update with real date for countdown
 };
 
 // ============================================================
@@ -78,8 +78,8 @@ export const speakers = [
   },
   {
     id: 8,
-    name: "Holly Jones",
-    initials: "HJ",
+    name: "Holly Korhorn",
+    initials: "HK",
     role: "Sobriety Advocate",
     image: "/images/speaker/Holly.jpg",
     bio: "Holly Jones is a wife, a mother of two, and a woman who rebuilt her life from the inside out. Nearly four years ago she chose sobriety — and what started as a personal decision became a window into something much larger: a quiet cultural shift of people rethinking their relationship with alcohol and rewriting what it means to connect, celebrate, and cope. Through honesty, humor, and raw storytelling, Holly's message cuts through the noise. It's not about perfection. It's about presence.",
